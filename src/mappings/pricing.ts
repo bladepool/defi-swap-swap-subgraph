@@ -3,8 +3,8 @@ import { Pair, Token, Bundle } from '../types/schema'
 import { BigDecimal, Address, BigInt } from '@graphprotocol/graph-ts/index'
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD } from './helpers'
 
-const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
-const USDC_WETH_PAIR = '0x3aa370aacf4cb08c7e1e7aa8e8ff9418d73c7e0f'
+const WETH_ADDRESS = '0x66bc84b4270cA0F056E27e5cD77B2401522191c6'
+const USDC_WETH_PAIR = ''
 const DAI_WETH_PAIR = ''
 const USDT_WETH_PAIR = ''
 
@@ -64,6 +64,7 @@ let WHITELIST: string[] = [
   '0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9', // AAVE
   '0xd533a949740bb3306d119cc777fa900ba034cd52', // CRV
   '0x4c19596f5aaff459fa38b0f7ed92f11ae6543784', // TRU
+  '0x66bc84b4270cA0F056E27e5cD77B2401522191c6', // TRU
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
